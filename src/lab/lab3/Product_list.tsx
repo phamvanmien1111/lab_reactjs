@@ -7,11 +7,11 @@ type Product = {
   price: number;
 };
 
-interface ProductListProps {
+interface Thuoctinh {
   products: Product[];
 }
 
-export default function ProductList({ products }: ProductListProps) {
+export default function ProductList({ products }: Thuoctinh) {
   return (
     <table border={1} cellPadding={10} cellSpacing={0} width="100%">
       <thead>
