@@ -4,6 +4,7 @@ import {Button , Container} from "react-bootstrap"
         const [message , setMessage]=useState("");
         const handleClick=(ButtonNumber:number)=>{
             setMessage(`Bạn đã nhấn vào nút${ButtonNumber}`);
+            console.log(ButtonNumber)
         }
         return(
             <Container className="text-center mt-5">
